@@ -6,8 +6,8 @@
 	<title>Expresión Aritmética - Ejercicio 2</title>
 </head>
 <body>
-	<h3>2. Haga un programa que evalúe la siguiente expresión aritmética: </h3>
-	<img src="./img/expresion.png" title="expresion">
+	<h3 style="color: #425d28;">2. Haga un programa que evalúe la siguiente expresión aritmética: </h3>
+	<img src="./img/expresion.png" title="img expresion">
 
 	<form action="expresion.php" method="POST" autocomplete="off">
 		<div>
@@ -15,7 +15,7 @@
 		</div>
 		<br>
 		<div>
-			<input type="text" name="y" placeholder="Introduce el valor de y">
+			<input type="text" name="y" placeholder="Introduce el valor de y" title="valor de y">
 		</div>
 		<br>
 		<div>

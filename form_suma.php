@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form - Addition two numbers</title>
+    <title>Form - Addition two numbers Ejercicio 0</title>
 </head>
 <body>
     <form action="sum.php" method="POST">
