@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Intereses - Ejercicio 8</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+<?php include("nav.php"); ?>
+<title>Ejercicio 8</title>
 <body class="container">
 	<h4 class="color-danger">8. Un programa que calcule los intereses de una cuenta dada si se sabe que el
 		banco paga a sus usuarios el 3% mensual. El programa debe imprimir el monto
@@ -21,7 +15,7 @@
 		  </div>
 		  <div class="form-group py-2">
 		    <label>N° de cuenta</label>
-		    <input type="password" class="form-control" placeholder="Ingresa el número de la cuenta" name="n_cuenta">
+		    <input type="text" class="form-control" placeholder="Ingresa el número de la cuenta" name="n_cuenta">
 		  </div>
 
 		  <div class="form-group py-2">
@@ -33,9 +27,7 @@
 		    <input type="text" class="form-control" placeholder="Ingresa el número de meses" name="meses">
 		  </div>
 		  
-		  <button type="submit" class="btn btn-primary">Calcular</button>
+		  <button type="submit" class="btn btn-success">Calcular</button>
 	</form>
 
-
-</body>
-</html>
+	<?php include("footer.php"); ?>

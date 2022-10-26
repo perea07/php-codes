@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Area - Ejercicio 1</title>
-</head>
-<body>
-	<h3>1. Haga un programa que calcule el área y la circunferencia de un círculo. Si se
+<?php include("nav.php"); ?>
+<title>Ejercicio - 1</title>
+<body class="container">
+	<h3 class="py-3">1. Haga un programa que calcule el área y la circunferencia de un círculo. Si se
 	sabe que las fórmulas son las siguientes:
 	</h3>
 
@@ -16,14 +11,15 @@
 	</ul>
 	
 
-	<form action="area.php" method="POST">
+	<form action="area.php" method="POST" autocomplete="off">
 		<div>
 			<input type="text" name="number" placeholder="Introduce un número">
 		</div>
 		<br>
 		<div>
-			<input type="submit" name="button">
+			<input type="submit" name="button" class="btn btn-success">
 		</div>
 	</form>
+	<?php include("footer.php"); ?>
 </body>
 </html>
